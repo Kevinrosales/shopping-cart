@@ -1,1 +1,27 @@
-/* TODO: Make it awesome */
+body {
+    background:
+    linear-gradient(135deg, #708090 22px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px),
+    linear-gradient(225deg, #708090 22px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px)0 64px;
+    background-color:#708090;
+    background-size: 64px 128px
+}
+
+html{
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-top: 2em;
+    margin-bottom: 5em;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 25px;
+    color: #000000
+}
+
+header{
+    text-align: center;
+}
+
+footer{
+    color: rgb(175, 170, 170);
+    text-align: center;
+    border-width: px;
+}

@@ -7,11 +7,14 @@ var Cart = function(items) {
 };
 
 Cart.prototype.addItem = function(product, quantity) {
-  // TODO: Fill in this instance method to create a new CartItem and add it to this.items
+  this.addItem.product = product;
+  this.addItem.quantity = quantity;
+  Cart.addItem.push(this);
 };
+Cart.addItems = [];
 
-Cart.prototype.saveToLocalStorage = function() {
-  // TODO: Fill in this instance method to save the contents of the cart to localStorage
+Cart.prototype.saveToLocalStorage = function() { 
+
 };
 
 Cart.prototype.removeItem = function(item) {
@@ -57,3 +60,4 @@ function generateCatalog() {
 
 // Initialize the app by creating the big list of products with images and names
 generateCatalog();
+
